@@ -115,6 +115,11 @@ export default function Header () {
                 <span className="btn-main">Connect Wallet</span>
             </div>
             </div>
+            <button className="nav-icon" onClick={() => btn_icon(!showmenu)}>
+                <div className="menu-line white"></div>
+                <div className="menu-line1 white"></div>
+                <div className="menu-line2 white"></div>
+            </button>
       </header>
     )
 }
