@@ -67,16 +67,26 @@ export default function Packages() {
                 </div>
                 <div className="referal-box bg-shadow">
                     <div className="header">
-
+                        <h3>Referrals</h3>
+                        <hr/>
                     </div>
-                    <div className="note">
-                
+                    <div className="referal-link bg_gradient">
+                        PLEASE CONNECT WALLET TO GENERATE REFERRAL LINK
+                        <span></span>
                     </div>
-                    <div className="link bg_gradient">
-
-                    </div>
-                    <div className="">
-
+                    <div className="info-box">
+                        <div className="referal-item earned">
+                            <span>EARNED</span>
+                            <span>0</span>
+                        </div>
+                        <div className="referal-item withdrawn">
+                            <span>WITHDRAWN</span>
+                            <span>0</span>
+                        </div>
+                        <div className="referal-item referrals">
+                            <span>REFERRALS</span>
+                            <span>0</span>
+                        </div>
                     </div>
                 </div>
             </div>
