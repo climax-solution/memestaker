@@ -38,12 +38,6 @@ export default function Header () {
                     </div>
                     <div className='navbar-item'>
                         <a href="/">
-                        Telegram
-                        <span className='lines'></span>
-                        </a>
-                    </div>
-                    <div className='navbar-item'>
-                        <a href="/">
                         Discord
                         <span className='lines'></span>
                         </a>
@@ -75,12 +69,6 @@ export default function Header () {
                     <div className='navbar-item'>
                     <a href="/">
                         Audit
-                        <span className='lines'></span>
-                    </a>
-                    </div>
-                    <div className='navbar-item'>
-                    <a href="/">
-                        Telegram
                         <span className='lines'></span>
                     </a>
                     </div>

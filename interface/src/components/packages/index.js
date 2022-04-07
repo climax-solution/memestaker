@@ -57,7 +57,7 @@ export default function Packages() {
                         <h4>0</h4>
                     </div>
                     <div className="input-box my-5">
-                        <span className="d-block">Available Avax to withdraw </span>
+                        <span className="d-block">Available DOGE to withdraw </span>
                         <input
                             type="text"
                             className="bg_gradient"
