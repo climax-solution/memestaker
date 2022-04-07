@@ -11,8 +11,8 @@ export default function Banner() {
                 </ol>
             </div>
             <div className="banner-logos">
-                <img src="/img/doge.png" className="doge"/>
-                <img src="/img/coinmark.png" className="coin"/>
+                <img src="/img/doge.png" className="doge" alt=""/>
+                <img src="/img/coinmark.png" className="coin" alt=""/>
             </div>
             <div className="state-info-box">
                 <h4 className="text-center">Statistics</h4>
