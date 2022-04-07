@@ -17,7 +17,7 @@ export default function Package({ data }) {
             </div>
             <div class="days bg_gradient">{data.period} Days</div>
             <div class="amount">
-                <input type="text" placeholder="Enter amount in AVAX" value=""/>
+                <input type="text" placeholder="Enter amount in DOGE" value=""/>
             </div>
             <div class="days-roi w-100">
                 <span class="sm">ROI in {data.period} days</span>

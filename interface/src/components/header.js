@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { a } from "react-router-dom";
 import Breakpoint, { BreakpointProvider, setDefaultBreakpoints } from "react-socks";
 
 setDefaultBreakpoints([
@@ -16,7 +16,7 @@ export default function Header () {
         <header id="myHeader" className='navbar white mt-5'>
             <div className="container">
             <div className='logo px-0'>
-                <div className='navbar-title navbar-item'>
+                <div className='navbar-title navbar-item p-0'>
                 <Link to="/">
                     <img
                     src="/img/logo.png"
@@ -31,40 +31,40 @@ export default function Header () {
                 {showmenu && 
                     <div className='menu'>
                     <div className='navbar-item'>
-                        <Link to="/">
+                        <a href="/">
                         Audit
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     <div className='navbar-item'>
-                        <Link to="/explore">
+                        <a href="/">
                         Telegram
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     <div className='navbar-item'>
-                        <Link to="/activity">
+                        <a href="/">
                         Discord
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     <div className='navbar-item'>
-                        <Link to="/users">
+                        <a href="/">
                         Twitter
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     <div className='navbar-item'>
-                        <Link to="/users">
+                        <a href="/">
                         Contract
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     <div className='navbar-item'>
-                        <Link to="/users">
+                        <a href="/">
                         Docs
                         <span className='lines'></span>
-                        </Link>
+                        </a>
                     </div>
                     </div>
                 }
@@ -73,40 +73,40 @@ export default function Header () {
                 <Breakpoint xl>
                 <div className='menu'>
                     <div className='navbar-item'>
-                    <Link to="/">
+                    <a href="/">
                         Audit
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                     <div className='navbar-item'>
-                    <Link to="/explore">
+                    <a href="/">
                         Telegram
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                     <div className='navbar-item'>
-                    <Link to="/activity">
+                    <a href="/">
                         Discord
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                     <div className='navbar-item'>
-                    <Link to="/users">
+                    <a href="/">
                         Twitter
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                     <div className='navbar-item'>
-                    <Link to="/users">
+                    <a href="/">
                         Contract
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                     <div className='navbar-item'>
-                    <Link to="/users">
+                    <a href="/">
                         Docs
                         <span className='lines'></span>
-                    </Link>
+                    </a>
                     </div>
                 </div>
                 </Breakpoint>

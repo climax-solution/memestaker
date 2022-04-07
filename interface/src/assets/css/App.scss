@@ -3,9 +3,15 @@ $white: #fff;
 $color: #fcb700;
 
 body {
-  background-image: url('../img/bg.png');
-  background-color: #1a274a;
+  // background-image: url('../img/bg.png');
+  background-color: #000;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.App {
+  position: relative;
+  overflow: hidden;
 }
 
 .navbar {
@@ -100,7 +106,7 @@ body {
   }
   .logo{
     width: max-content;
-    padding-right:30px;
+    max-height: 51px;
   }
   .menu{
     display: flex;
@@ -374,6 +380,18 @@ body {
         width: 100%;
         padding-left: 5px;
       }
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: red;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+      }
     }
   }
 }
@@ -452,4 +470,23 @@ body {
 
 .premium-color {
   color: $color;
+}
+
+.coin-mark, .doge-mark {
+  position: absolute;
+  z-index: -1;
+}
+
+.coin-mark {
+  top: 100px;
+  width: 500px;
+  opacity: 0.3;
+  left: -150px;
+}
+
+.doge-mark {
+  bottom: -100px;
+  width: 500px;
+  opacity: 0.3;
+  right: -150px;
 }

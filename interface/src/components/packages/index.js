@@ -43,7 +43,7 @@ export default function Packages() {
     return (
         <div className="packages mt-4">
             <h4>PACKAGES</h4>
-            <ul>
+            <ul className="px-0">
                 {
                     packages.map((item, index) => (
                         <Package data={item} key={index}/>
@@ -53,7 +53,7 @@ export default function Packages() {
             <div className="restriction-box">
                 <div className="withdraw-box bg-shadow">
                     <div className="header">
-                        <h6 className="title m-0">STAKED AVAX</h6>
+                        <h6 className="title m-0">STAKED DOGE</h6>
                         <h4>0</h4>
                     </div>
                     <div className="input-box my-5">

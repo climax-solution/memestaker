@@ -12,6 +12,8 @@ function App() {
         <Banner/>
         <Packages/>
       </div>
+      <img src="/img/coinmark.png" className="coin-mark"/>
+      <img src="/img/doge.png" className="doge-mark"/>
     </div>
   );
 }
