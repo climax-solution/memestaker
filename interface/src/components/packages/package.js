@@ -19,7 +19,7 @@ export default function Package({ data }) {
                 </div>
                 <div className="text-end">
                     <span class="sm">Total ROI Earnings</span>
-                    <div>{(data.daily * data.period).toPrecision(5)}%</div>
+                    <div>{data.total}%</div>
                 </div>
             </div>
             <div class="days bg_gradient">{data.period} Days</div>

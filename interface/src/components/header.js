@@ -55,7 +55,7 @@ export default function Header () {
                         </a>
                     </div>
                     <div className='navbar-item'>
-                        <a href="/">
+                        <a href="https://docs.google.com/document/d/1F7sYi49ajXfzlTbGj46Q7s2F0hkVBUKgdQWCfL6fkdU/edit?usp=sharing" target="_blank" rel="noreferrer">
                         Docs
                         <span className='lines'></span>
                         </a>
@@ -91,7 +91,7 @@ export default function Header () {
                     </a>
                     </div>
                     <div className='navbar-item'>
-                    <a href="/">
+                    <a href="https://docs.google.com/document/d/1F7sYi49ajXfzlTbGj46Q7s2F0hkVBUKgdQWCfL6fkdU/edit?usp=sharing" target="_blank" rel="noreferrer">
                         Docs
                         <span className='lines'></span>
                     </a>

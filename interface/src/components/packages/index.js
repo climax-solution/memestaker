@@ -4,38 +4,44 @@ const packages = [
     {
         name: "SAVINGS",
         isPremium: false,
-        daily: 12.3,
-        period: 14
+        daily: 8,
+        period: 14,
+        total: 112
     },
     {
         name: "CLASSICS",
         isPremium: false,
-        daily: 11.8,
-        period: 21
+        daily: 7.5,
+        period: 21,
+        total: 157
     },
     {
         name: "PREMIUM",
         isPremium: false,
-        daily: 11.3,
-        period: 28
+        daily: 7,
+        period: 28,
+        total: 196
     },
     {
         name: "SILVER",
         isPremium: true,
-        daily: 12.3,
-        period: 14
+        daily: 8,
+        period: 14,
+        total: 197
     },
     {
         name: "GOLD",
         isPremium: true,
-        daily: 11.8,
-        period: 21
+        daily: 7.5,
+        period: 21,
+        total: 365
     },
     {
         name: "PLATINUM",
         isPremium: true,
-        daily: 11.3,
-        period: 28
+        daily: 7,
+        period: 28,
+        total: 582
     }
 ];
 
